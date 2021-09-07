@@ -542,13 +542,11 @@ color: #000;
     .galleery__gallery {
         margin: 0;
         flex-direction: column;
-    }
-    .section__galleery:not(:hover){
-        pointer-events: none;
-        
+        padding: 0 calc(50% - 90px);
     }
     .galleery__section {
     margin: 5px 0 5px 0;
+    
     }
     .galleery__images{
         width: 170px;

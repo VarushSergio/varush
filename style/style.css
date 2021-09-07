@@ -578,9 +578,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .section__galleery:not(:hover) {
-    pointer-events: none;
+    padding: 0 calc(50% - 90px);
   }
   .galleery__section {
     margin: 5px 0 5px 0;
